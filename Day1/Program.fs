@@ -1,7 +1,6 @@
 ﻿open System
 open System.IO
 open System.Collections.Generic
-open System.Collections.Generic
 
 module Seq =
   let rec cycle xs = 
