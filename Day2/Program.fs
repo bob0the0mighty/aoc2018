@@ -6,7 +6,7 @@ open System.IO
 module Day2 =
 
   let getCountOfNumbers(matchCount: int)(input: string) =
-     input.ToCharArray()
+    input.ToCharArray()
     |> Seq.groupBy (fun c -> c)
     |> Map.ofSeq
     |> Map.map (fun k v -> Seq.length v)
